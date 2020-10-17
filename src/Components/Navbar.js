@@ -1,12 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../Styles/Navbar.css";
 const Navbar = () => {
-  return (
-    <div className="Navbar">
-      <div className="nav nav-bg">
-      </div>
-    </div>
-  );
+  return <div className="Navbar nav nav-bg"></div>;
 };
 
 export default Navbar;
