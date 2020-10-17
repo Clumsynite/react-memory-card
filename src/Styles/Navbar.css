@@ -1,0 +1,8 @@
+.nav-bg {
+  background-image: url("../images/nav-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  width: auto;
+  background-position: center;
+  height: 13vh;
+}
