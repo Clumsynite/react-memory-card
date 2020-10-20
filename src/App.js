@@ -10,8 +10,12 @@ function App() {
     setScore(score + 1)
   }
   const resetScore = () => {
-    setBest(score)
-    setScore(0)
+    if(best < score){
+      setBest(score)
+      setScore(0)  
+    }else{
+      setScore(0)
+    }
   }
 
   return (
