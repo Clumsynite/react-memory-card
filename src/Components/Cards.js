@@ -4,6 +4,13 @@ import images from "./images";
 const Cards = (props) => {
   const [cards] = useState(images);
 
+  const shuffle = () => {
+    for (let i = cards.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [cards[i], cards[j]] = [cards[j], cards[i]];
+    }
+  };
+
   const handleClick = (e) => {
     const index = e.target.getAttribute("data-index");
     const clicked = images[index].clicked;
@@ -14,7 +21,9 @@ const Cards = (props) => {
       props.resetScore();
       images.forEach((image) => (image.clicked = false));
     }
+    shuffle();
   };
+
   const cardsMap = cards.map((card, index) => {
     return (
       <div
