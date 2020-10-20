@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
-import images from './images' 
+import images from "./images";
 
 const Cards = () => {
   const [cards, setCards] = useState(images);
 
   const cardsMap = cards.map((card, index) => {
     return (
-      <div key={index} className="card" data-index={index}>
-        <img src={card.src} alt={card.name} />
-        <div className="card-body">
-          <div className="card-title">{card.name}</div>
+      <div key={index} className="col mb-3" data-index={index}>
+        <div className="card">
+          <img src={card.src} alt={card.name} data-index={index} style={{height: "240px"}}/>
+          <div className="card-footer">
+            <div className="card-title">{card.name}</div>
+          </div>
         </div>
       </div>
     );
@@ -17,8 +19,9 @@ const Cards = () => {
 
   return (
     <div className="Cards">
-      {cards.length > 1 && cardsMap}
-      <img src="../images/nav-bg.jpg" alt="AAA" ></img>
+      <div className="row row-cols-3 row-cols-md-6">
+        {cards.length > 1 && cardsMap}
+      </div>
     </div>
   );
 };
