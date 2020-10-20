@@ -9,7 +9,7 @@ const Cards = () => {
       <div key={index} className="col mb-3" data-index={index}>
         <div className="card">
           <img src={card.src} alt={card.name} data-index={index} style={{height: "240px"}}/>
-          <div className="card-footer">
+          <div className="card-footer font-weight-bold text-center">
             {card.name}
           </div>
         </div>
