@@ -10,8 +10,28 @@ import thor from '../images/thor.jpg'
 
 export default [
   {
+    name: `Hawk Eye`,
+    src: hawkeye,
+    clicked: false,
+  },
+  {
     name: `Black Widow`,
     src: blackwidow,
+    clicked: false,
+  },
+  {
+    name: `Thor`,
+    src: thor,
+    clicked: false,
+  },
+  {
+    name: `Iron Man`,
+    src: ironman,
+    clicked: false,
+  },
+  {
+    name: `Hulk`,
+    src: hulk,
     clicked: false,
   },
   {
@@ -25,21 +45,6 @@ export default [
     clicked: false,
   },
   {
-    name: `Hawk Eye`,
-    src: hawkeye,
-    clicked: false,
-  },
-  {
-    name: `Hulk`,
-    src: hulk,
-    clicked: false,
-  },
-  {
-    name: `Iron Man`,
-    src: ironman,
-    clicked: false,
-  },
-  {
     name: `Loki`,
     src: loki,
     clicked: false,
@@ -47,11 +52,6 @@ export default [
   {
     name: `Spiderman`,
     src: spiderman,
-    clicked: false,
-  },
-  {
-    name: `Thor`,
-    src: thor,
     clicked: false,
   }
 ]
