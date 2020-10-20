@@ -10,7 +10,7 @@ const Cards = () => {
         <div className="card">
           <img src={card.src} alt={card.name} data-index={index} style={{height: "240px"}}/>
           <div className="card-footer">
-            <div className="card-title">{card.name}</div>
+            {card.name}
           </div>
         </div>
       </div>
