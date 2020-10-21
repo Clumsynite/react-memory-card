@@ -5,8 +5,12 @@ import hawkeye from '../images/hawkeye.jpg'
 import hulk from '../images/hulk.jpg'
 import ironman from '../images/ironman.jpg'
 import loki from '../images/loki.jpg'
+import nickfury from '../images/nickfury.jpg'
+import quicksilver from '../images/quicksilver.jpg'
 import spiderman from '../images/spiderman.jpg'
+import starlord from '../images/starlord.jpg'
 import thor from '../images/thor.jpg'
+import vision from '../images/vision.jpg'
 
 export default [
   {
@@ -50,8 +54,28 @@ export default [
     clicked: false,
   },
   {
+    name: `Nick Fury`,
+    src: nickfury,
+    clicked: false,
+  },
+  {
+    name: `Quick Silver`,
+    src: quicksilver,
+    clicked: false,
+  },
+  {
     name: `Spiderman`,
     src: spiderman,
     clicked: false,
-  }
+  },
+  {
+    name: `Star Lord`,
+    src: starlord,
+    clicked: false,
+  },
+  {
+    name: `Vision`,
+    src: vision,
+    clicked: false,
+  },
 ]
