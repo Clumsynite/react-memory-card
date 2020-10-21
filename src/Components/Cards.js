@@ -34,7 +34,12 @@ const Cards = (props) => {
         data-index={index}
         onClick={handleClick}
       >
-        <div className="card" data-index={index} style={{ cursor: "pointer" }}>
+        <div
+          className="card"
+          data-index={index}
+          style={{ cursor: "pointer" }}
+          title={card.name}
+        >
           <img
             src={card.src}
             alt={card.name}
