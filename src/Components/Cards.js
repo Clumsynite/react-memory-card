@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import images from "./images";
 
 const Cards = (props) => {
-  const [cards] = useState(images);
+  const [cards, setCards] = useState(images);
 
   const shuffle = () => {
-    for (let i = cards.length - 1; i > 0; i--) {
+    const array = cards;
+    for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [cards[i], cards[j]] = [cards[j], cards[i]];
+      [array[i], array[j]] = [array[j], array[i]];
     }
+    return array;
   };
 
   const handleClick = (e) => {
@@ -21,7 +23,7 @@ const Cards = (props) => {
       props.resetScore();
       images.forEach((image) => (image.clicked = false));
     }
-    shuffle();
+    setCards(shuffle());
   };
 
   const cardsMap = cards.map((card, index) => {
@@ -32,14 +34,18 @@ const Cards = (props) => {
         data-index={index}
         onClick={handleClick}
       >
-        <div className="card">
+        <div className="card" data-index={index}>
           <img
             src={card.src}
             alt={card.name}
             data-index={index}
             style={{ height: "240px" }}
           />
-          <div className="card-footer font-weight-bold text-center">
+          <div
+            className="card-footer font-weight-bold text-center"
+            data-index={index}
+            style={{ userSelect: "none" }}
+          >
             {card.name}
           </div>
         </div>
