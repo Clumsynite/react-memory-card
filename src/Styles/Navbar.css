@@ -6,3 +6,25 @@
   background-position: center;
   height: 13vh;
 }
+.scoreboard {
+  padding: 5px 0;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.current {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#F59FAE, #E77668, #00576B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.best {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#65B994, #65B994, #00576B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
