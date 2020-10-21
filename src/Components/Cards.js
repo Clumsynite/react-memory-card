@@ -49,7 +49,7 @@ const Cards = (props) => {
           <div
             className="card-footer font-weight-bold text-center"
             data-index={index}
-            style={{ userSelect: "none" }}
+            style={{ userSelect: "none", padding: "10px 0" }}
           >
             {card.name}
           </div>
