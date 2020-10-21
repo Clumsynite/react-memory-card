@@ -1,3 +1,4 @@
+import blackpanther from '../images/blackpanther.jpg'
 import blackwidow from '../images/blackwidow.jpg'
 import captain from '../images/captain.jpg'
 import gamora from '../images/gamora.jpg'
@@ -76,6 +77,11 @@ export default [
   {
     name: `Vision`,
     src: vision,
+    clicked: false,
+  },
+  {
+    name: `Black Panther`,
+    src: blackpanther,
     clicked: false,
   },
 ]
