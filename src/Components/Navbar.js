@@ -8,7 +8,7 @@ const Navbar = (props) => {
       <div className="scoreboard">
         <div className="current">
           {" "}
-          Score: {props.score} out of {images.length}
+          Score: {props.score} of {images.length}
         </div>
         <div className="best"> Best Score: {props.best}</div>
       </div>
