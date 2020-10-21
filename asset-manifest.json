@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-memory-card/static/css/main.197a779a.chunk.css",
+    "main.js": "/react-memory-card/static/js/main.9b0750f0.chunk.js",
+    "main.js.map": "/react-memory-card/static/js/main.9b0750f0.chunk.js.map",
+    "runtime-main.js": "/react-memory-card/static/js/runtime-main.9913b96b.js",
+    "runtime-main.js.map": "/react-memory-card/static/js/runtime-main.9913b96b.js.map",
+    "static/js/2.408ca69b.chunk.js": "/react-memory-card/static/js/2.408ca69b.chunk.js",
+    "static/js/2.408ca69b.chunk.js.map": "/react-memory-card/static/js/2.408ca69b.chunk.js.map",
+    "index.html": "/react-memory-card/index.html",
+    "precache-manifest.62869bc989207755a461111bd6ccaa16.js": "/react-memory-card/precache-manifest.62869bc989207755a461111bd6ccaa16.js",
+    "service-worker.js": "/react-memory-card/service-worker.js",
+    "static/css/main.197a779a.chunk.css.map": "/react-memory-card/static/css/main.197a779a.chunk.css.map",
+    "static/js/2.408ca69b.chunk.js.LICENSE.txt": "/react-memory-card/static/js/2.408ca69b.chunk.js.LICENSE.txt",
+    "static/media/blackpanther.jpg": "/react-memory-card/static/media/blackpanther.8cf462cf.jpg",
+    "static/media/blackwidow.jpg": "/react-memory-card/static/media/blackwidow.9a17ee97.jpg",
+    "static/media/captain.jpg": "/react-memory-card/static/media/captain.0f9d4bc0.jpg",
+    "static/media/gamora.jpg": "/react-memory-card/static/media/gamora.41821187.jpg",
+    "static/media/hawkeye.jpg": "/react-memory-card/static/media/hawkeye.d98e8ca9.jpg",
+    "static/media/hulk.jpg": "/react-memory-card/static/media/hulk.ee124c49.jpg",
+    "static/media/ironman.jpg": "/react-memory-card/static/media/ironman.1bbbb6a7.jpg",
+    "static/media/loki.jpg": "/react-memory-card/static/media/loki.5d30d15a.jpg",
+    "static/media/Navbar.css": "/react-memory-card/static/media/nav-bg.70fb347b.jpg",
+    "static/media/nickfury.jpg": "/react-memory-card/static/media/nickfury.e5438ff9.jpg",
+    "static/media/quicksilver.jpg": "/react-memory-card/static/media/quicksilver.8c08d022.jpg",
+    "static/media/spiderman.jpg": "/react-memory-card/static/media/spiderman.9726c950.jpg",
+    "static/media/starlord.jpg": "/react-memory-card/static/media/starlord.ddd85793.jpg",
+    "static/media/thor.jpg": "/react-memory-card/static/media/thor.f260d63a.jpg",
+    "static/media/vision.jpg": "/react-memory-card/static/media/vision.7dbb0bb0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9913b96b.js",
+    "static/js/2.408ca69b.chunk.js",
+    "static/css/main.197a779a.chunk.css",
+    "static/js/main.9b0750f0.chunk.js"
+  ]
+}
