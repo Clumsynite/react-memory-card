@@ -9,7 +9,7 @@
 .scoreboard {
   font-size: 30px;
   padding: 5px 0;
-  background-color: #F2F2F2;
+  background-color: #F7F7F7;
   display: flex;
   justify-content: space-evenly;
 }
