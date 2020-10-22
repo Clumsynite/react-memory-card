@@ -2,7 +2,10 @@ import antman from '../images/antman.jpg'
 import blackpanther from '../images/blackpanther.jpg'
 import blackwidow from '../images/blackwidow.jpg'
 import captain from '../images/captain.jpg'
+import drax from '../images/drax.jpg'
+import drstrange from '../images/drstrange.jpg'
 import gamora from '../images/gamora.jpg'
+import groot from '../images/groot.jpg'
 import hawkeye from '../images/hawkeye.jpg'
 import hulk from '../images/hulk.jpg'
 import ironman from '../images/ironman.jpg'
@@ -14,6 +17,7 @@ import spiderman from '../images/spiderman.jpg'
 import starlord from '../images/starlord.jpg'
 import thor from '../images/thor.jpg'
 import vision from '../images/vision.jpg'
+import wintersoldier from '../images/wintersoldier.jpg'
 
 export default [
   {
@@ -94,6 +98,26 @@ export default [
   {
     name: `Rocket`,
     src: rocket,
+    clicked: false,
+  },
+  {
+    name: `Drax`,
+    src: drax,
+    clicked: false,
+  },
+  {
+    name: `Doctor Strange`,
+    src: drstrange,
+    clicked: false,
+  },
+  {
+    name: `Groot`,
+    src: groot,
+    clicked: false,
+  },
+  {
+    name: `Winter Soldier`,
+    src: wintersoldier,
     clicked: false,
   },
 ]
