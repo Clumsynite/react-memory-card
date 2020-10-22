@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b01583584cab19afe2fd196525679b8c",
+    "revision": "7dd03f86e868507c99288bf2a82c9f23",
     "url": "/react-memory-card/index.html"
   },
   {
-    "revision": "e9a41ead3fc09f7b506e",
-    "url": "/react-memory-card/static/css/main.d2926d3d.chunk.css"
+    "revision": "eb28f197378b13891dc3",
+    "url": "/react-memory-card/static/css/main.1f3bd0fa.chunk.css"
   },
   {
     "revision": "279006277e97d8eb56f2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-memory-card/static/js/2.096ce9ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9a41ead3fc09f7b506e",
-    "url": "/react-memory-card/static/js/main.eed21675.chunk.js"
+    "revision": "eb28f197378b13891dc3",
+    "url": "/react-memory-card/static/js/main.5d3f6ff1.chunk.js"
   },
   {
     "revision": "0872daadfcd76da7a71e",
