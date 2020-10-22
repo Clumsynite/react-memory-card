@@ -1,3 +1,4 @@
+import antman from '../images/antman.jpg'
 import blackpanther from '../images/blackpanther.jpg'
 import blackwidow from '../images/blackwidow.jpg'
 import captain from '../images/captain.jpg'
@@ -8,6 +9,7 @@ import ironman from '../images/ironman.jpg'
 import loki from '../images/loki.jpg'
 import nickfury from '../images/nickfury.jpg'
 import quicksilver from '../images/quicksilver.jpg'
+import rocket from '../images/rocket.jpg'
 import spiderman from '../images/spiderman.jpg'
 import starlord from '../images/starlord.jpg'
 import thor from '../images/thor.jpg'
@@ -82,6 +84,16 @@ export default [
   {
     name: `Black Panther`,
     src: blackpanther,
+    clicked: false,
+  },
+  {
+    name: `Antman`,
+    src: antman,
+    clicked: false,
+  },
+  {
+    name: `Rocket`,
+    src: rocket,
     clicked: false,
   },
 ]
