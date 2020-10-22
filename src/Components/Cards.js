@@ -30,7 +30,7 @@ const Cards = (props) => {
     return (
       <div
         key={index}
-        className="avenger col mb-3"
+        className="avenger col-6  mb-3"
         data-index={index}
         onClick={handleClick}
       >
@@ -60,7 +60,7 @@ const Cards = (props) => {
 
   return (
     <div className="Cards">
-      <div className="row row-cols-3 row-cols-md-6">
+      <div className="row row-cols-2 row-cols-md-6">
         {cards.length > 1 && cardsMap}
       </div>
     </div>
