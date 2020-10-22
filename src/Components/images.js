@@ -1,23 +1,23 @@
-import antman from '../images/antman.jpg'
-import blackpanther from '../images/blackpanther.jpg'
-import blackwidow from '../images/blackwidow.jpg'
-import captain from '../images/captain.jpg'
-import drax from '../images/drax.jpg'
-import drstrange from '../images/drstrange.jpg'
-import gamora from '../images/gamora.jpg'
-import groot from '../images/groot.jpg'
-import hawkeye from '../images/hawkeye.jpg'
-import hulk from '../images/hulk.jpg'
-import ironman from '../images/ironman.jpg'
-import loki from '../images/loki.jpg'
-import nickfury from '../images/nickfury.jpg'
-import quicksilver from '../images/quicksilver.jpg'
-import rocket from '../images/rocket.jpg'
-import spiderman from '../images/spiderman.jpg'
-import starlord from '../images/starlord.jpg'
-import thor from '../images/thor.jpg'
-import vision from '../images/vision.jpg'
-import wintersoldier from '../images/wintersoldier.jpg'
+import antman from "../images/antman.jpg";
+import blackpanther from "../images/blackpanther.jpg";
+import blackwidow from "../images/blackwidow.jpg";
+import captain from "../images/captain.jpg";
+import drax from "../images/drax.jpg";
+import drstrange from "../images/drstrange.jpg";
+import gamora from "../images/gamora.jpg";
+import groot from "../images/groot.jpg";
+import hawkeye from "../images/hawkeye.jpg";
+import hulk from "../images/hulk.jpg";
+import ironman from "../images/ironman.jpg";
+import loki from "../images/loki.jpg";
+import nickfury from "../images/nickfury.jpg";
+import quicksilver from "../images/quicksilver.jpg";
+import rocket from "../images/rocket.jpg";
+import spiderman from "../images/spiderman.jpg";
+import starlord from "../images/starlord.jpg";
+import thor from "../images/thor.jpg";
+import vision from "../images/vision.jpg";
+import wintersoldier from "../images/wintersoldier.jpg";
 
 export default [
   {
@@ -120,4 +120,4 @@ export default [
     src: wintersoldier,
     clicked: false,
   },
-]
+];
