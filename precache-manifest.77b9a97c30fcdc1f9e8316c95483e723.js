@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85b3d04a5e1318dec216093809b431bd",
+    "revision": "b01583584cab19afe2fd196525679b8c",
     "url": "/react-memory-card/index.html"
   },
   {
-    "revision": "9e475af103a7f5f98dbf",
-    "url": "/react-memory-card/static/css/main.197a779a.chunk.css"
+    "revision": "e9a41ead3fc09f7b506e",
+    "url": "/react-memory-card/static/css/main.d2926d3d.chunk.css"
   },
   {
-    "revision": "4cbecdf11111b0a78d07",
-    "url": "/react-memory-card/static/js/2.408ca69b.chunk.js"
+    "revision": "279006277e97d8eb56f2",
+    "url": "/react-memory-card/static/js/2.096ce9ac.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/react-memory-card/static/js/2.408ca69b.chunk.js.LICENSE.txt"
+    "url": "/react-memory-card/static/js/2.096ce9ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e475af103a7f5f98dbf",
-    "url": "/react-memory-card/static/js/main.9b0750f0.chunk.js"
+    "revision": "e9a41ead3fc09f7b506e",
+    "url": "/react-memory-card/static/js/main.eed21675.chunk.js"
   },
   {
     "revision": "0872daadfcd76da7a71e",
     "url": "/react-memory-card/static/js/runtime-main.9913b96b.js"
+  },
+  {
+    "revision": "73f1e47f99fe6a528db9291749f8532f",
+    "url": "/react-memory-card/static/media/antman.73f1e47f.jpg"
   },
   {
     "revision": "8cf462cf3eb151bfe0a7d57af318c78e",
@@ -36,8 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-memory-card/static/media/captain.0f9d4bc0.jpg"
   },
   {
+    "revision": "9f51415cb3ec1cbb1e2f0b2b4b16b15e",
+    "url": "/react-memory-card/static/media/drax.9f51415c.jpg"
+  },
+  {
+    "revision": "55ef86541183dcf3f11612a553125df7",
+    "url": "/react-memory-card/static/media/drstrange.55ef8654.jpg"
+  },
+  {
     "revision": "4182118706df77d693d33d48c385055e",
     "url": "/react-memory-card/static/media/gamora.41821187.jpg"
+  },
+  {
+    "revision": "b5079a337e31a3609e54a0c3b2db7a8f",
+    "url": "/react-memory-card/static/media/groot.b5079a33.jpg"
   },
   {
     "revision": "d98e8ca937a31b744c38c2565f588173",
@@ -60,12 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-memory-card/static/media/nav-bg.70fb347b.jpg"
   },
   {
-    "revision": "e5438ff91eae422e2e9f7c2cd924fe08",
-    "url": "/react-memory-card/static/media/nickfury.e5438ff9.jpg"
+    "revision": "5b64658ec746500f51431e5ee062225e",
+    "url": "/react-memory-card/static/media/nickfury.5b64658e.jpg"
   },
   {
     "revision": "8c08d0221d41bc5fb1467d5fd120b119",
     "url": "/react-memory-card/static/media/quicksilver.8c08d022.jpg"
+  },
+  {
+    "revision": "5953c9ce0e6f8526c92540384e7ba139",
+    "url": "/react-memory-card/static/media/rocket.5953c9ce.jpg"
   },
   {
     "revision": "9726c950ec6301d23d2f788d45eebe62",
@@ -82,5 +102,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7dbb0bb08741ced0ac189c78336ffe88",
     "url": "/react-memory-card/static/media/vision.7dbb0bb0.jpg"
+  },
+  {
+    "revision": "b9f3780c18de69ccb7326bcd138f31fd",
+    "url": "/react-memory-card/static/media/wintersoldier.b9f3780c.jpg"
   }
 ]);
