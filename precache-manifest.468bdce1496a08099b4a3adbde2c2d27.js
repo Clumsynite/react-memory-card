@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dd03f86e868507c99288bf2a82c9f23",
+    "revision": "044da94797af02faa8bdcf9cdb69cd21",
     "url": "/react-memory-card/index.html"
   },
   {
