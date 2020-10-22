@@ -17,6 +17,20 @@ When clicked, the point will increase by one and the cards will be shuffled.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Screenshots
+
+### Fullscreen
+
+![Screenshot - 1 || Fullscreen](./screenshots/preview.png)
+
+### Medium Resolution
+
+![Screenshot - 2 || Medium](./screenshots/medium-res.png)
+
+### Mobile Resolution
+
+<img src="./screenshots/mobile.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
