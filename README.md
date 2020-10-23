@@ -11,11 +11,9 @@ When clicked, the point will increase by one and the cards will be shuffled.
 ### Rules
 
 - Each new card click will give you one point.
-- One card can only be clicked once. Else, score will reset.
+- One card can only be clicked once. Else, the score will reset.
 
 *Simple*, isn't it?
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Screenshots
 
@@ -29,9 +27,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Mobile Resolution
 
-<img src="./screenshots/mobile.png">
+![Screenshot - 3 || Mobile](./screenshots/mobile.png)
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
