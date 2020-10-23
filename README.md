@@ -7,11 +7,15 @@ You can find the Assignment page [here](https://www.theodinproject.com/courses/j
 
 This is an avengers themed mini game, where the user will have to click a card from the provided card list.
 When clicked, the point will increase by one and the cards will be shuffled.
+You view some screenshots [here](#screenshots)
 
 ### Rules
 
-- Each new card click will give you one point.
-- One card can only be clicked once. Else, the score will reset.
+- You have 20 cards on your screen when you play
+- Each click on a new card will give you **one** point
+- One card can only be clicked one time.
+- If you click a card twice, you lose and your score will reset to **zero**
+- In case you lose and your current score is more than your *Best Score*, your best score will change.
 
 *Simple*, isn't it?
 
