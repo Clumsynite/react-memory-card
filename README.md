@@ -5,8 +5,8 @@
 This project is built as a part of [The Odin Project's](https://www.theodinproject.com/) React Lesson.
 You can find the Assignment page [here](https://www.theodinproject.com/courses/javascript/lessons/memory-card)
 
-This is an avengers themed mini game, where the user will have to click a card from the provided card list.
-When clicked, the point will increase by one and the cards will be shuffled.
+This is an avengers themed mini game, where the user will have to click a card from the provided card list. When clicked, your score will increase by one and the cards will be shuffled.
+
 You view some screenshots [here](#screenshots)
 
 ### Rules
